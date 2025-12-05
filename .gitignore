@@ -1,0 +1,48 @@
+# .gitignore para proyecto iOS
+
+# Xcode
+*.xcodeproj
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Build
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# Carthage
+Carthage/Build
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Certificados (NUNCA subir al repositorio público)
+*.p12
+*.cer
+*.mobileprovision
+*.certSigningRequest
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
