@@ -1,0 +1,23 @@
+{
+  "name": "TuEnfermera",
+  "bundle_identifier": "com.tuenfermera.app",
+  "version": "1.0.0",
+  "build_number": "1",
+  "deployment_target": "15.0",
+  "display_name": "Tu Enfermera",
+  "description": "Cuidado profesional en la comodidad de tu hogar",
+  "app_icon": "AppIcon",
+  "launch_screen": "LaunchScreen",
+  "orientations": [
+    "portrait",
+    "portraitUpsideDown"
+  ],
+  "capabilities": [
+    "Internet"
+  ],
+  "privacy": {
+    "NSCameraUsageDescription": "Esta app necesita acceso a la cámara para subir fotos",
+    "NSPhotoLibraryUsageDescription": "Esta app necesita acceso a tus fotos para subir imágenes",
+    "NSLocationWhenInUseUsageDescription": "Esta app necesita tu ubicación para mostrarte servicios cercanos"
+  }
+}
